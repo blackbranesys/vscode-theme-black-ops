@@ -1,5 +1,5 @@
 {
-  "name": "Sidious",
+  "name": "BLACK-OPS",
   "type": "dark",
   "colors": {
     "activityBar.background": "#0e0e0e",
@@ -8,19 +8,19 @@
     "button.background": "#ff4952",
     "button.hoverBackground": "#ff4952",
     "dropdown.background": "#292929",
-    "editor.background": "#202025",
+    "editor.background": "#181818",
     "editor.foreground": "#d6d6d6",
-    "editor.selectionBackground": "#8766bd91",
-    "editor.selectionHighlightBackground": "#353b8f94",
-    "editor.findMatchHighlightBackground": "#7064b4b9",
+    "editor.selectionBackground": "#360000",
+    "editor.selectionHighlightBackground": "#520000",
+    "editor.findMatchHighlightBackground": "#700000bd",
     "editorBracketMatch.border": "#ff4952",
     "editorGroupHeader.tabsBackground": "#131313",
-    "editorGutter.addedBackground": "#00ff0d",
-    "editorGutter.modifiedBackground": "#9886ff",
+    "editorGutter.addedBackground": "#ff0000",
+    "editorGutter.modifiedBackground": "#bd0000",
     "editorMarkerNavigationInfo.background": "#ff4952",
     "focusBorder": "#ff4952",
-    "gitDecoration.addedResourceForeground": "#00ff88",
-    "gitDecoration.modifiedResourceForeground": "#9886ff",
+    "gitDecoration.addedResourceForeground": "#ff0000",
+    "gitDecoration.modifiedResourceForeground": "#bd0000",
     "input.border": "#f01c40",
     "inputOption.activeBorder": "#ff4952",
     "inputValidation.infoBorder": "#ff2340",
@@ -35,7 +35,7 @@
     "sideBarSectionHeader.background": "#101011",
     "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#1d1d1d",
-    "statusBar.debuggingBackground": "#983eff",
+    "statusBar.debuggingBackground": "#980000",
     "statusBar.noFolderBackground": "#222225",
     "tab.activeBackground": "#111111",
     "tab.inactiveBackground": "#181818",
@@ -45,10 +45,179 @@
   },
   "tokenColors": [
     {
+      "name": "Common Lisp Line Comment",
+      "scope": [
+        "comment.line"
+      ],
+      "settings": {
+        "foreground": "#363636"
+      }
+    },
+    {
+      "name": "Common Lisp Block Comment",
+      "scope": [
+        "comment.block",
+        "comment.block.documentation"
+      ],
+      "settings": {
+        "foreground": "#424242"
+      }
+    },
+    {
+      "name": "Common Lisp Lambda-List",
+      "scope": [
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#920000"
+      }
+    },
+    {
+      "name": "Common Lisp Lambda-List Keyword",
+      "scope": ["keyword.other"],
+      "settings": {
+        "foreground": "#660000"
+      }
+    },
+    {
+      "name": "Common Lisp String",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#ad0000"
+      }
+    },
+    {
+      "name": "Common Lisp Array",
+      "scope": [
+        "constant"
+      ],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp List",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Quoted Form",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp S-Expression Form",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Declaration",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Lexical Variable",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Dynamic Special Variable",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Constant",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Function",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Macro-Function",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Compiler-Macro",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Symbol Macro",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Reader Macro",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Uninterned Symbol",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Keyword Symbol",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Generic Function",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Method",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Class",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Metaclass",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Struct",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Condition",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Atomic Type Specifier",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Derived Type Specifier",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Common Lisp Compound Type Specifier",
+      "scope": [],
+      "settings": {}
+    },
+    {},
+    {
       "name": "Meta Function Definition",
       "scope": [
         "meta.body.function.definition.cpp",
-        " meta.function.definition.cpp",
+        "meta.function.definition.cpp",
         "source.cpp"
       ],
       "settings": {
@@ -59,7 +228,6 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#686868"
       }
     },
@@ -172,8 +340,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#ff9393",
-        "fontStyle": "italic"
+        "foreground": "#ff9393"
       }
     },
     {
@@ -275,7 +442,6 @@
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ff4952"
       }
     },
@@ -303,7 +469,6 @@
         "text.html.basic entity.other.attribute-name"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ff4952"
       }
     },
@@ -377,7 +542,6 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ff4952"
       }
     },
@@ -387,7 +551,6 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ff4952"
       }
     },
@@ -559,7 +722,6 @@
       "name": "Markup - Quote",
       "scope": ["markup.quote"],
       "settings": {
-        "fontStyle": "italic"
       }
     },
     {

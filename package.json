@@ -1,34 +1,38 @@
 {
-  "name": "Sidious",
-  "displayName": "Sidious",
-  "description": "Dark and bloody powerful. Vic Sidious' Official VS Code theme.",
-  "version": "6.6.69",
-  "publisher": "sidiousvic",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "name": "BLACK-OPS",
+  "displayName": "BLACK-OPS",
+  "description": "Official VS Code theme of Black Brane Systems: Special Projects Division.",
+  "version": "6.6.6",
+  "publisher": "blackbranesystems",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.33.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sidiousvic/sidious-vscode-theme"
+    "url": "https://github.com/blackbranesys/vscode-theme-black-ops"
   },
   "keywords": [
     "Theme",
     "Dark Theme",
     "Hacker Theme",
     "Red Theme",
-    "Cool Theme"
+    "Black Theme",
+    "Night Theme",
+    "Night-Vision",
+    "Lisp",
+    "Common Lisp"
   ],
   "categories": [
     "Themes"
   ],
-  "icon": "sidiouspro.png",
+  "icon": "black-ops-theme-icon.png",
   "contributes": {
     "themes": [
       {
-        "label": "Sidious",
+        "label": "BLACK-OPS",
         "uiTheme": "vs-dark",
-        "path": "./themes/Sidious-color-theme.json"
+        "path": "./themes/blackops-color-theme.json"
       }
     ]
   }

@@ -1,25 +1,44 @@
-# Sidious 💀 🍕 🧬
+# BLACK-OPS
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/sidiousvic.sidious.svg)](#)
+[![Version](https://vsmarketplacebadge.apphb.com/version/blackbranesys.black-ops.svg)](#)
 
-Dark and bloody pro.
+Standard-issue semantic dark VS Code theme for special operations speculated to
+involve Common Lisp and interactive programming.
 
-By [sidiousvic](sidiousvic.dev)
+The official VS Code theme of Black Brane Systems: Special Projects Division.
 
-# Installation
+By [Black Brane Systems Inc.][@blackbranesys]
 
-1.  Install [Visual Studio Code](https://code.visualstudio.com/)
-2.  Launch Visual Studio Code
-3.  Choose **Extensions**
-4.  Search for `sidious`
-5.  Click **Install**
-6.  Click **Reload**
-7.  Set your theme to **Sidious**
+## Installation
 
-# Notes
+1. Install [Visual Studio Code](https://code.visualstudio.com/)
+2. Launch Visual Studio Code
+3. Choose **Extensions**
+4. Search for `black-ops`
+5. Click **Install**
+6. Click **Reload**
+7. Set your theme to **BLACK-OPS**
+8. Start hacking.
 
-If you find any wicked things, please [file an issue](https://github.com/sidiousvic/sidious-vscode-theme/issues).
+## Credits
 
-Special thanks to [Sarah Drasner](https://github.com/sdras) for her [tutorial](https://css-tricks.com/creating-a-vs-code-theme/) on VS Code theme creation.
+Forked from [Sidious][] by [Vic Sidious][@sidiousvic].
 
-![Detail](sidious-theme.png)
+Reindoctrinated by ["the Phoeron" Colin J.E. Lupton][@thephoeron].
+
+## Preview
+
+![Preview][]
+
+## License
+
+Copyright &copy; 2019&ndash;2020, [Black Brane Systems Inc.][blbr] and the
+[Authors][]. All rights reserved.
+
+Released under the MIT License. Please see [LICENSE.md][] for more information.
+
+[blbr]: https://blackbrane.com/
+[@blackbranesys]: https://github.com/sidiousvic/
+[@thephoeron]: https://github.com/thephoeron/
+[Preview]: black-ops-theme-preview.png
+[Sidious]: https://github.com/sidiousvic/sidious-vscode-theme/
