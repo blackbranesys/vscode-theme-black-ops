@@ -5,6 +5,7 @@
   "version": "6.6.6",
   "publisher": "blackbrane",
   "license": "MIT. See LICENSE.md for more information.",
+  "preview": true,
   "engines": {
     "vscode": "^1.49.0"
   },
