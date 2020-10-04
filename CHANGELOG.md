@@ -6,4 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+## [6.6.6] - 2020-10-04
+
+- Initial release, forked from [Sidious] Theme
+
+[Sidious]: https://github.com/sidiousvic/sidious-vscode-theme/
