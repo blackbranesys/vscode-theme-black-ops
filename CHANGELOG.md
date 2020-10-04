@@ -2,7 +2,15 @@
 
 All notable changes to the "blackbrane.vscode-theme-black-ops" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [6.6.600] - 2020-10-04
+
+### Updated
+
+- Swap editor-tab colours
+
+### Fixed
+
+- Package-name for availability-status badge in README.md
 
 ## [6.6.60] - 2020-10-04
 

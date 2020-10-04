@@ -1,6 +1,6 @@
 # BLACK-OPS
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/blackbrane.vscode-theme-black-ops.svg)](#)
+[![Version](https://vsmarketplacebadge.apphb.com/version/blackbrane.BLACK-OPS.svg)](#)
 
 Standard-issue semantic dark VS Code theme for special operations speculated to
 involve Common Lisp and interactive programming.
@@ -29,9 +29,9 @@ Reindoctrinated by ["the Phoeron" Colin J.E. Lupton][@thephoeron].
 ## License
 
 Copyright &copy; 2019&ndash;2020, [Black Brane Systems Inc.][blbr] and the
-[Authors][]. All rights reserved.
+[Authors](#credits). All rights reserved.
 
-Released under the MIT License. Please see [LICENSE.md][] for more information.
+Released under the MIT License. Please see LICENSE.md for more information.
 
 [blbr]: https://blackbrane.com/
 [@blackbranesys]: https://github.com/sidiousvic/
