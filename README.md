@@ -26,10 +26,6 @@ Forked from [Sidious][] by [Vic Sidious][@sidiousvic].
 
 Reindoctrinated by ["the Phoeron" Colin J.E. Lupton][@thephoeron].
 
-## Preview
-
-![Preview][]
-
 ## License
 
 Copyright &copy; 2019&ndash;2020, [Black Brane Systems Inc.][blbr] and the
