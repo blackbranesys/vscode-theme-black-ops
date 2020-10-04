@@ -9,7 +9,7 @@
     "button.hoverBackground": "#ff4952",
     "dropdown.background": "#292929",
     "editor.background": "#181818",
-    "editor.foreground": "#d6d6d6",
+    "editor.foreground": "#a0a0a0",
     "editor.selectionBackground": "#360000",
     "editor.selectionHighlightBackground": "#520000",
     "editor.findMatchHighlightBackground": "#700000bd",
@@ -33,7 +33,7 @@
     "sideBar.background": "#121212",
     "sideBar.dropBackground": "#090909",
     "sideBarSectionHeader.background": "#101010",
-    "sideBarTitle.foreground": "#bbbbbb",
+    "sideBarTitle.foreground": "#a0a0a0",
     "statusBar.background": "#1d1d1d",
     "statusBar.debuggingBackground": "#980000",
     "statusBar.noFolderBackground": "#222225",
@@ -50,7 +50,7 @@
         "comment.line"
       ],
       "settings": {
-        "foreground": "#363636"
+        "foreground": "#646464"
       }
     },
     {
@@ -60,7 +60,7 @@
         "comment.block.documentation"
       ],
       "settings": {
-        "foreground": "#424242"
+        "foreground": "#646464"
       }
     },
     {
@@ -212,7 +212,6 @@
       "scope": [],
       "settings": {}
     },
-    {},
     {
       "name": "Meta Function Definition",
       "scope": [

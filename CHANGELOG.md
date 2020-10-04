@@ -2,6 +2,14 @@
 
 All notable changes to the "blackbrane.vscode-theme-black-ops" extension will be documented in this file.
 
+## [6.6.6000] - 2020-10-04
+
+### Updated
+
+- brighten block and line comment foreground colours
+- darken default text colour
+- darken sidebar foreground colour
+
 ## [6.6.600] - 2020-10-04
 
 ### Updated
