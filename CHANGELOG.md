@@ -4,7 +4,12 @@ All notable changes to the "blackbrane.vscode-theme-black-ops" extension will be
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [6.6.60] - 2020-10-04
+
+### Updated
+
+- Tweak background colours of sidebar and terminal
+- Choose an absurd version numbering scheme based on Sexagesimal
 
 ## [6.6.6] - 2020-10-04
 
