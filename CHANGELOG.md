@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "sidious" extension will be documented in this file.
+All notable changes to the "blackbrane.vscode-theme-black-ops" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 

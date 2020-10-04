@@ -1,6 +1,6 @@
 # BLACK-OPS
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/blackbranesys.black-ops.svg)](#)
+[![Version](https://vsmarketplacebadge.apphb.com/version/blackbrane.vscode-theme-black-ops.svg)](#)
 
 Standard-issue semantic dark VS Code theme for special operations speculated to
 involve Common Lisp and interactive programming.
@@ -42,3 +42,4 @@ Released under the MIT License. Please see [LICENSE.md][] for more information.
 [@thephoeron]: https://github.com/thephoeron/
 [Preview]: black-ops-theme-preview.png
 [Sidious]: https://github.com/sidiousvic/sidious-vscode-theme/
+[@sidiousvic]: https://github.com/sidiousvic/

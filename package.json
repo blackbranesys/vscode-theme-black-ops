@@ -3,10 +3,10 @@
   "displayName": "BLACK-OPS",
   "description": "Official VS Code theme of Black Brane Systems: Special Projects Division.",
   "version": "6.6.6",
-  "publisher": "blackbranesystems",
-  "license": "MIT",
+  "publisher": "blackbrane",
+  "license": "MIT. See LICENSE.md for more information.",
   "engines": {
-    "vscode": "^1.33.0"
+    "vscode": "^1.49.0"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "black-ops-theme-icon.png",
+  "icon": "black-ops-textlogo.png",
   "contributes": {
     "themes": [
       {
